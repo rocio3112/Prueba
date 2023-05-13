@@ -1,9 +1,9 @@
 import mysql.connector
 
 # Establecer conexión con la base de datos
-cnx = mysql.connector.connect(user='usuario', password='contraseña',
+cnx = mysql.connector.connect(user='prueba123456', password='Conprueba1*',
                               host='localhost',
-                              database='nombre_de_la_base_de_datos')
+                              database='prueba')
 cursor = cnx.cursor()
 
 # Definir los registros que se van a insertar
